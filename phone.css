@@ -1,0 +1,140 @@
+@media only screen and (max-width:600px) {
+
+    .header {
+        overflow-x: hidden;
+    }
+
+    /* Navbar  */
+    .navbar {
+        padding: 0;
+    }
+
+    .social-icons li{
+        font-size: 8vmin;
+    }
+
+    .nav-links li{
+        font-size: 6.2vmin;
+    }
+
+    .toggle {
+        height: 20px;
+        display: block;
+    }
+
+    .logo h1 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .navlinks-box {
+        transition: .31s;
+        display: flex;
+        width: 100%;
+        padding: 60px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #bedbe6;
+        height: 100vh;
+        margin-top: -990px;
+        flex-direction: column;
+    }
+
+    .phone {
+        margin-top: 0px;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-top: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col1 {
+        padding: 10px;
+        margin-bottom: 4px;
+    }
+
+    .col1 p {
+        margin-top: 20px;
+    }
+
+    .btn:hover {
+        transform: scale(1);
+    }
+
+    .a-style {
+        margin-top: 15px;
+    }
+
+    .a-style img {
+        height: 3vh;
+    }
+
+    .a-style img:hover {
+        height: 3.4vh;
+    }
+
+    .header {
+        height: 100%;
+        margin-top: 120px;
+    }
+
+    .col2 {
+        margin-top: 4px;
+    }
+
+    .col2 img {
+        box-shadow: 2px 2px 27px black;
+        max-width: 50%;
+    }
+
+    .circle-style {
+        width: 100%;
+        height: 47vh;
+        top: -13%;
+        right: -4%;
+    }
+
+    .circle-style2 {
+        display: none;
+    }
+
+    .skills {
+        background: white;
+    }
+
+    .grid-wrap {
+        margin: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .grid-container {
+        box-shadow: 2px 0px 30px #0000002f;
+
+    }
+
+    .grid-container:hover {
+        background: var(--circle);
+    }
+
+    .hobby-box {
+        flex-direction: column;
+    }
+
+    .hobby-container {
+        margin: auto;
+        width: 62%;
+    }
+
+    .hobby-chart {
+        margin-top: 25px;
+    }
+}
