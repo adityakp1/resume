@@ -68,6 +68,12 @@ h1 {
     max-width: 35%;
 }
 
+.col1 .phone a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
 .phone,
 .mail,
 .location {
