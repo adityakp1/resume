@@ -290,7 +290,7 @@ li:hover{
     border-radius: 12px;
 }
 
-.grid-container:hover{
+.skills .grid-container:hover{
     background-color: whitesmoke;
     box-shadow: 2px 0px 30px #0000002f;
 }
@@ -375,10 +375,198 @@ li:hover{
     lightseagreen 0,
     lightseagreen 78%,
     rgb(240, 216, 96) 0,
-    rgb(240, 216, 96) 100%
-    );
+    rgb(240, 216, 96) 100%);
     min-width: calc(100vw - 60vw);
     min-height: calc(100vh - 66vh);
+}
+
+/* Project Section */
+
+.title-main h1{
+    display: flex;
+    justify-content: center;
+}
+
+.title-main h4{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project{
+    margin: 50px;
+    margin-top: 85px;
+}
+
+.project .title h3{
+    color: var(--grey);
+}
+
+.project .title{
+    text-align: left;
+}
+
+.project .grid-wrap{
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 20px;
+}
+
+.project .grid-container{
+    box-shadow: 3px 4px 4px #0000002f;
+    position: relative;
+}
+
+.project .grid-container img{
+    border-radius: 10px;
+}
+
+/* Project hover 1 */
+
+.hover1{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(114, 36, 169);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+
+.hover1 .text-color1{
+    color: rgb(210, 206, 19);
+}
+
+.project .grid-container:hover .hover1{
+    transform: scale(1);
+}
+
+.project .hover1 h4{
+    color: whitesmoke;
+}
+
+/* Project hover 2 */
+
+.hover2{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(91, 139, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+
+.project .grid-container:hover .hover2{
+    transform: scale(1);
+}
+
+.project .hover2 h4{
+    color: whitesmoke;
+}
+
+.hover2 .text-color2{
+    color: whitesmoke;
+}
+
+/* Project hover 3 */
+
+.hover3{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(218, 198, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+
+.hover3 .text-color3{
+    color: rgb(21, 21, 96);
+}
+
+.hover3 .text-color3 h4{
+    color: rgb(21, 21, 96);
+}
+
+.project .grid-container:hover .hover3{
+    transform: scale(1);
+}
+
+/* Project hover 4 */
+
+.hover4{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(218, 198, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+
+.hover4 .text-color4{
+    color: rgb(21, 21, 96);
+}
+
+.hover4 .text-color4 h4{
+    color: rgb(21, 21, 96);
+}
+
+.project .grid-container:hover .hover4{
+    transform: scale(1);
+}
+
+/* Project hover 5 */
+
+.hover5{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(218, 198, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+
+.hover5 .text-color5{
+    color: rgb(21, 21, 96);
+}
+
+.hover5 .text-color5 h4{
+    color: rgb(21, 21, 96);
+}
+
+.project .grid-container:hover .hover5{
+    transform: scale(1);
 }
 
 /* Contact Section */
