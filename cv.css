@@ -234,16 +234,6 @@ li:hover{
     max-height: 50vh;
 }
 
-.circle-style2{
-    width: 17%;
-    height: 35vh;
-    background-color: var(--light-blue);
-    position: absolute;
-    top: 57%;
-    right: 26%;
-    z-index: -1;
-    border-radius: 50%;
-}
 
 /* Skills Section */
 
