@@ -6,6 +6,7 @@
 
     /* Navbar  */
     .navbar {
+        position: static;
         padding: 0;
     }
 
@@ -22,7 +23,8 @@
         display: block;
     }
 
-    .logo h1 {
+    .navbar .logo h1 {
+        color: rgb(31, 31, 101);
         position: absolute;
         top: 20px;
         left: 20px;
@@ -35,7 +37,8 @@
         padding: 60px;
         justify-content: space-around;
         align-items: center;
-        background-color: #bedbe6;
+        /* background-color: #bedbe6; */
+        background-color: rgb(31, 31, 101);
         height: 100vh;
         margin-top: -990px;
         flex-direction: column;
@@ -104,6 +107,7 @@
     }
 
     .circle-style2 {
+        right: 0;
         display: none;
     }
 
