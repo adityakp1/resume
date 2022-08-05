@@ -32,17 +32,18 @@
 <body>
 
     <!-- Navigation Section -->
-    <nav class="navbar">
+    <nav  id="home" class="navbar">
         <div class="logo">
             <h1>Resume</h1>
         </div>
         <div class="navlinks-box">
             <div class="nav-links">
                 <ul>
-                    <a href="cv.html" target="_blank"><li>Home</li></a>
-                    <a href="#"><li>Skills</li></a>
-                    <a href="https://htmlpreview.github.io/?https://github.com/Adityakp1/Adventure-project/blob/main/adventure.html" target="_blank"><li>Projects</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#hobbies"><li>Hobbies</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="contact.html" target="_blank"><li>Contact</li></a>
                 </ul>
             </div>
             <div class="social-icons">
@@ -84,8 +85,8 @@
 
     <!-- Skills Section -->
 
-    <section class="skill-section">
-        <div class="skills">
+    <section  class="skill-section">
+        <div id="skills" class="skills">
             <div class="title">
                 <h1>My Work Experience</h1>
                 <div class="line"></div>
@@ -166,7 +167,7 @@
 
     <!-- Hobby Section -->
 
-    <section class="hobby-section">
+    <section id="hobbies" class="hobby-section">
 
         <div class="hobby-title">
             <h1>Hobbies</h1>
@@ -191,7 +192,7 @@
 
     <!-- Project Section -->
 
-    <section class="project">
+    <section id="projects" class="project">
         <div class="title">
             <h3>PROJECT</h3>
             <div class="title-main">
@@ -250,10 +251,11 @@
         <div class="box">
             <a href="contact.html" target="_blank"><h2>CONTACT ME</h2></a>
             <h1>Did you like my project? Let's Start!</h1>
-            <h3><i class="fa fa-envelope"> abc@gmail.com</i></h3>
-            <h3><i class="fa fa-phone"> +91-8340******</i></h3>
+            <i class="fa fa-envelope"><a href="mailto:abc@gmail.com">Mail us here</a></i>
+            <i class="fa fa-phone"><a href="tel:+91834029****">Contact us</a></i>
 
         </div>
+
     </section>
 
     <!-- Copyright -->
@@ -265,6 +267,15 @@
         </div>
     </footer>
 
+    <section  class="top">
+        <div onclick="topFunction()" id="move-top">
+            <h6>Go to top</h6>
+            <a href="#home"><img src="img/up_arrow1.png"></a>
+        </div>
+    </section>
+
+
+
     <!-- Script -->
     <script>
         const togglebtn = document.querySelector('.toggle')
@@ -273,6 +284,22 @@
         togglebtn.addEventListener('click',() => {
             navlinkbox.classList.toggle('phone')
         })
+
+        // Move to top arrow
+
+        topbutton = document.getElementById("move-top");
+
+        window.onscroll = function()
+        {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 800) {
+                topbutton.style.display = "block";
+
+            } else{
+                topbutton.style.display = "none";
+            }
+        }
     </script>
 
 </body>
