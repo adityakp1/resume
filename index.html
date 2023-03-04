@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Personal Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
@@ -13,11 +13,14 @@
     <!-- Font Awesome Cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Decription  -->
+    <meta name="description" content="Hello visitors, Welcome to my Personal Portfolio webpage.">
     <!-- CSS class path -->
     <link rel="stylesheet" href="cv.css">
 
     <!-- Website icon -->
-    <link rel="shortcut icon" type="image/png" href="https://www.pngrepo.com/png/354267/512/reapp.png">
+    <link rel="icon" href="img/reapp.ico">
+    <link rel="shortcut icon" href="img/reapp.ico" type="image/x-icon">
 
     <!-- Phone Responsive 0px to 400px -->
     <link rel="stylesheet" href="phone.css">
@@ -34,7 +37,7 @@
     <!-- Navigation Section -->
     <nav  id="home" class="navbar">
         <div class="logo">
-            <h1>Resume</h1>
+            <h1>Portfolio</h1>
         </div>
         <div class="navlinks-box">
             <div class="nav-links">
@@ -295,6 +298,7 @@
         function scrollFunction() {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 800) {
                 topbutton.style.display = "block";
+
 
             } else{
                 topbutton.style.display = "none";
